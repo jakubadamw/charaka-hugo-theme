@@ -46,8 +46,10 @@ html {
     clear: both;
 }
 
-body.is-desktop {
-    font-size: 1.1em;
+@media screen and (min-width: 769px) {
+    body {
+        font-size: 1.1em;
+    }
 }
 
 body {
