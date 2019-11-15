@@ -33,9 +33,9 @@ $button-hover-border-color: $grey-darker;
 $button-disabled-border-color: $grey-darker;
 $button-focus-box-shadow-color: transparent;
 
-$gap: 50px;
+$gap: 40px;
 $fullhd-enabled: false;
-$desktop: 900px + (2 * $gap);
+$desktop: 920px + (2 * $gap);
 $widescreen-enabled: false;
 $mobile: 479px;
 
@@ -46,8 +46,11 @@ html {
     clear: both;
 }
 
-body {
+body.is-desktop {
     font-size: 1.1em;
+}
+
+body {
     line-height: 1.5;
     padding: 2em 2em;
 }
@@ -119,6 +122,7 @@ body {
     }
 
     p {
+        hyphens: auto;
         text-align: justify;
 
         img {
