@@ -144,6 +144,10 @@ body {
         }
     }
 
+    p.right {
+        text-align: right;
+    }
+
     :not(pre) > code { 
         display: inline !important; 
         padding: .2em;
@@ -172,4 +176,3 @@ body {
         border: 1px $cyan solid;
     }
 }
-
