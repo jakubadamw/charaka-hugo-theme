@@ -8,14 +8,14 @@
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-left"></i>
             </span>
-            Новее
+            {{ i18n "newer" }}
           </a>
           {{ else }}
           <a class="button is-rounded" disabled>
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-left"></i>
             </span>
-            Новее
+            {{ i18n "newer" }}
           </a>
           {{ end }}
         </div>
@@ -24,14 +24,14 @@
         <div class="level-item">
           {{ if .Paginator.HasNext }}
           <a class="button is-rounded" href="{{ .Paginator.Next.URL }}">
-            Старше
+            {{ i18n "older" }}
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-right"></i>
             </span>
           </a>
           {{ else }}
           <a class="button is-rounded" disabled>
-            Старше
+            {{ i18n "older" }}
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-right"></i>
             </span>
