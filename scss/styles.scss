@@ -129,7 +129,7 @@ body {
         hyphens: auto;
         text-align: justify;
 
-        img {
+        > img {
             background-color: white;
             border: 1px solid black;
             padding: 3px;
@@ -138,7 +138,7 @@ body {
             margin: 0 auto;
         }
 
-        img + em {
+        > img + em {
             display: block;
             text-align: center;
             width: 100%;
